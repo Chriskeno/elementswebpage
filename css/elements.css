@@ -1,0 +1,86 @@
+/* Reset Browser Defaults*/
+* {
+  padding:0;
+  margin: 0;
+  font-size: 100%;
+  line-height: 1em;
+}
+
+body{margin: 0;
+padding: 0;}
+
+a{ transition: all .4s ease-in-out; }
+a:hover{transform: scale(1.4); }
+
+div.img {
+  background-image:url(../chalkboardcopy.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 100%;
+  height: 100%;
+  }
+.elements {height: 30%;
+width: 40%;
+display: flex;
+position: relative;
+top: 44%;
+left: 8%
+}
+.he {flex: 1;
+padding-right: 4em;}
+.kr {flex: 1; padding-right: 4em;}
+.hg {flex: 1; padding-right: 4em;}
+.c  {flex: 1; padding-right: 0em;}
+.cu {flex: 1; padding-right: 0em;
+position: relative;
+top: .7em;}
+
+.title {position: relative;
+float:right;
+right: 34%;
+height: 58%;
+bottom: 2em;}
+
+.header 
+{position: relative;
+left: 3em;
+top: 6em;
+float: left;}
+
+.symbol {position: relative;
+top:  14em;
+right: 24em;
+height: 60%}
+
+.back {position: relative;
+float:right;
+margin: 2%;}
+
+h3 {color: whitesmoke;
+    padding:1%;
+    margin: 1.5em;
+font-size: 2em;
+position: fixed;
+bottom: 2.3em;
+left: 13em;
+width: 18%;
+line-height: 1.6em;
+}
+
+.text1 {color: whitesmoke;
+    padding:1%;
+font-size: 2em;
+    position: fixed;
+    padding-bottom: 1em;
+    left: 22em;
+    bottom: 7em;
+width: 40%;}
+
+.text2 {color: whitesmoke;
+    padding:1%;
+font-size: 2em;
+    position: fixed;
+    padding-top: 1em;
+    left: 22em;
+    bottom: 2.5em;
+width: 40%;}
