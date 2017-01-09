@@ -13,7 +13,7 @@ a{ transition: all .4s ease-in-out; }
 a:hover{transform: scale(1.4); }
 
 div.img {
-  background-image:url(../../elementswebpage/chalkboard%20copy.png);
+  background-image:url(../../elementswebpage/chalkboardcopy.png);
   background-repeat: no-repeat;
   background-size:cover;
   width: 100%;
